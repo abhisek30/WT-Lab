@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="vifewport" content="width=device-width, initial-scale=1.0">
+    <title>KIIT UNIVERSITY</title>
+</head>
+
+<body leftmargin="15%" rightmargin="15%" topmargin="2%" style="background-image: url('https://cdn.kiit.ac.in/main/2017/12/26174535/Computer-Science-Computer-Lab.jpg'); background-repeat: no-repeat;
+background-size:cover;">
+    <h1 style="text-align: center;">Welcome School of Computer Science Registration Form</h1>
+    <form action="thanks.html">
+        <table align="left" cellpadding="2" cellspacing="10" style="color: #ff9999;">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input id="username" type=text placeholder="username" name="uname" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td> <input type="email" placeholder="abcd@kiit.ac.in" name="email" id="email" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input id="password" type=password placeholder="Password" name="p" required></td>
+            </tr>
+
+            <tr> 
+                <td>Age</td>
+                <td> <input type=number min="17" placeholder="18" max="22"></td>
+            </tr>
+
+            <tr>
+                <td><label for="fname">Full Name</label></td>
+                <td><input id="fname" type=text placeholder="Name" name="uname" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="father">Father's name</label></td>
+                <td><input id="father" type=text name="uname" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="board">Board Percentile</label></td>
+                <td><input id="board" type="number" min=60 max="100" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="course">Select your Course</label></td>
+                <td><select name="course" id="course">
+                    <option value="pin">CSE</option>
+                    <option value="tm">CSCE</option>
+                    <option value="pin">CSSE</option>
+                    <option value="or">IT</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type=radio name="size" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type=radio name="size" id="female" value="female">
+                    <label for="female">Female</label>
+                    <input type=radio name="size" id="others" value="others">
+                    <label for="others">Others</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right"><button type="reset">Clear Input</button></td>
+                    <td><button>submit</button></td>
+            </tr>
+
+        </table>
+        </p>
+        
+    </form>
+
+
+    <form action="" style="color: #ff9999;">
+        <p>
+            <input type="checkbox" name="agree_terms" id="agree" checked>
+            <label for="agree">I agree to everything</label>
+            
+        </p>
+
+        <p>
+            <label for="requests">For More Info Contact Us</label>
+            <textarea id="requests" rows="9" cols="20" placeholder="Type something here"></textarea>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>
