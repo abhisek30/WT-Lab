@@ -18,6 +18,7 @@ public class prog1 {
             arr[i] = sc.nextInt();
         }
         
+        
         System.out.println("AVERAGE: " + getAvg(arr));
     }
 }
